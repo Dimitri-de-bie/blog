@@ -1,0 +1,93 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~summernote/dist/summernote-bs4.css';
+
+html {
+  overflow: hidden;
+}
+        .box{
+
+          position: relative;
+          display:inline-block;
+          margin-top: -23px;
+        }
+        .box .text {
+          position: absolute;
+          z-index: 2;
+          margin: 20px;
+          left: 0;
+          right: 0;
+          top: 0%;
+          text-align: center;
+          color: white;
+          background-color: rgba(29, 29, 29, 0.74);
+          font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+        }
+.box .text2{
+
+  position: absolute;
+  z-index: 2;
+  margin: 20px;
+  left: 0;
+  right: 0;
+  top:25%;
+  text-align: center;
+  color: white;
+  background-color: rgba(29, 29, 29, 0.74);
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+}
+        body{
+          background-color: lightgrey;
+          color: black;
+        }
+        .teruglink2{
+          color: grey;
+        }
+.teruglink2:hover{
+  color: rgba(65, 64, 62, 0.73);
+}
+.posts{
+
+          .post{
+            h2.post-title{
+              a{
+                color: blue;
+        margin-bottom: 0;
+      }
+    }
+    i.post-published-at{
+      display: block;
+      text-align: right;
+    }
+  }
+}
+
+.post-single{
+  h1.title{
+    text-align: center;
+    color: black;
+  }
+  .single-post{
+    p.post-content{
+      font-size: 20px;
+      color: black;
+    }
+
+
+
+
+
+  }
+}
+.single-post-comment{
+  p.comment-title{
+    font-size: 24px;
+    font-style: italic;
+  }
+}
